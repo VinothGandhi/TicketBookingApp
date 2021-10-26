@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image:url(pizz.jpg);"><div>
+    <h1 style="text-align:center;background-color:yellow;border-style:solid;color:black;padding:30px"><b>FoodItems</b></h1>
+</div>
+<div  style="border-style:solid;padding:100px;text-align:center;background-color:tomato;">
+    <h2><b>MenuList</b></h2>
+    <form action="order.html" method="get">
+        <div>
+            <label for="popcorn"><strong>PopCorn:</strong></label>
+            <input type="text" name="pop" id="popcorn" list="corn" autofocus>
+            <datalist id="corn">
+                <option disabled>---select---</option>
+                <option value="SweetCorn">SweetCorn</option>
+                <option value="corn">Corn</option> 
+                <option value="plain">Plain</option>
+                <option value="butter">Butter</option> 
+            </datalist>
+            <label for="count"><strong>Count:</strong></label>
+            <input type="number" name="count" id="count">
+        </div><br>
+        <div>
+            <label for="Chocolate"><strong>Chocolate:</strong></label>
+            <input type="text" name="choco" id="Chocolate" list="choco">
+            <datalist id="choco">
+                <option disabled>---select---</option>
+                <option value="KitKat">KitKat</option>
+                <option value="DairyMilk">DairyMilk</option>
+                <option value="MilkyBar">MilkyBar</option>
+                
+            </datalist>
+            <label value="count"><strong>Count:</strong></label>
+            <input type="number" name="count" id="count">
+        </div><br>
+        <div>
+            <label for="IceCream"><strong>IceCream:</strong></label>
+            <input type="text" name="Ice" id="IceCream" list="Cream">
+            <datalist id="Cream">
+                <option disabled>---select---</option>
+                <option value="Vannila">Vannila</option>
+                <option value="StrawBerry">StrawBerry</option>
+                <option value="ButterScrotch">ButterScrotch</option>
+                
+            </datalist>
+            <label value="count"><strong>Count:</strong></label>
+            <input type="number" name="count" id="count">
+        </div><br>
+       <div>
+           <button><strong>Submit</strong></button>&nbsp &nbsp
+           <button type="reset"><strong>Reset</strong></button>
+       </div> 
+ </form>
+</div>
+</body>
+</html>
